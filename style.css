@@ -1,0 +1,24 @@
+h1 {color:red;}
+.name{color:green;}
+ul li {
+  color:yellow;
+}
+ul li {
+  color:#c71585;
+} /*примяется только к li внутрм ul*/
+h1:hover{
+  color:green;
+  font-size:30px;
+}
+img {
+  width:75px;
+  height:45px;
+}
+body {
+  background-color: pink;
+}
+@media (min-width: 600px) and (max-width: 960px) {
+  body{
+  background-color: grey;
+  }
+}
